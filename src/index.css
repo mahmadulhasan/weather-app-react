@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lavishly+Yours&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  min-height: 100vh;
+  display: grid;
+}
+
+.weater{
+  background: rgba(15, 91, 231, 0.954);
+  padding: 15px;
+  
+}
+
+.div1 input{
+  padding: 5px 10px;
+}
+.div1 img{
+  height: 30px;
+  width: 30px;
+}
+
+.div2 img{
+  height: 100px;
+  width: 100px;
+}
+.div3 img{
+  height: 50px;
+  width: 50px
+}
+.text-xxxl{
+  font-size: 2.4rem;
+}
